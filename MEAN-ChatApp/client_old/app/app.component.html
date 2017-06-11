@@ -1,0 +1,15 @@
+<div class="wrapper">
+
+    <div class="sidebar" data-color='red' data-image="" *ngIf="showNavigation()">
+        <sidebar-cmp></sidebar-cmp>
+        <div class="sidebar-background" style="background-image: url(../assets/img/sidebar-4.jpg)"></div>
+    </div>
+    <div class="main-panel">
+        <div *ngIf="showNavigation()"> <navbar-cmp></navbar-cmp></div>
+        <!--<dashboard-cmp></dashboard-cmp>-->
+         <router-outlet></router-outlet>
+        <!--<div *ngIf="showNavigation()">
+            <footer-cmp></footer-cmp>
+        </div>-->
+    </div>
+</div>

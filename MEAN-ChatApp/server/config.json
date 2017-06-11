@@ -1,0 +1,5 @@
+{
+    "connectionString":"mongodb://localhost:27017/ChatApp",
+    "apiUrl":"http://localhost/api",
+    "secret":"vm15tz1052"
+}
